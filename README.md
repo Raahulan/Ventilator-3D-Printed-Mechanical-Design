@@ -1,8 +1,12 @@
 # Ventilator 3D-Printed Mechanical Design
 
-A compact mechanical design project focused on the development and fabrication of a custom ventilator system using CAD modelling and FDM 3D printing.
+<p align="center">
+  <b>CAD Design • FDM 3D Printing • Mechanical Prototyping</b>
+</p>
 
-The project includes a custom impeller and a lightweight structural bracket, both designed for rapid prototyping and physical evaluation.
+<p align="center">
+  A mechanical design project focused on the development and fabrication of a custom ventilator prototype using CAD modelling and FDM 3D printing.
+</p>
 
 ---
 
@@ -11,11 +15,11 @@ The project includes a custom impeller and a lightweight structural bracket, bot
 <table>
   <tr>
     <td align="center">
-      <img src="Images/Ventilator.jpeg" width="420"><br>
-      <b>Ventilator Impeller</b>
+      <img src="Ventilator.jpeg" width="420"><br>
+      <b>Ventilator Impeller Prototype</b>
     </td>
     <td align="center">
-      <img src="Images/Ventilator_Bracket.jpeg" width="420"><br>
+      <img src="Ventilator_Bracket.jpeg" width="420"><br>
       <b>Ventilator Mounting Bracket</b>
     </td>
   </tr>
@@ -25,98 +29,100 @@ The project includes a custom impeller and a lightweight structural bracket, bot
 
 ## Project Overview
 
-This project demonstrates the complete workflow of a small mechanical design project, from CAD modelling to physical fabrication.
+This project demonstrates the design and fabrication of mechanical components for a custom ventilator prototype.
 
-The main objectives were to:
+The complete development process involved:
 
-- Design the ventilator mechanical components
-- Create printable 3D models
-- Manufacture the parts using FDM 3D printing
-- Evaluate the geometry and mechanical fit
-- Improve the design through rapid prototyping
+- CAD modelling
+- Mechanical component design
+- STL model preparation
+- FDM 3D printing
+- Prototype fabrication
+- Physical design evaluation
+- Mechanical fit verification
+
+The project mainly consists of two custom-designed components:
+
+1. **Ventilator Impeller**
+2. **Ventilator Mounting Bracket**
 
 ---
 
-## Main Components
-
-### 1. Ventilator Impeller
-
-The impeller was designed with curved blades to generate airflow when rotated.
-
-### Features
-
-- Curved blade geometry
-- Compact circular structure
-- Central shaft mounting point
-- Designed for FDM 3D printing
-- Suitable for prototype airflow testing
-- Easy to modify for future iterations
-
-### Prototype
+## Ventilator Impeller
 
 <p align="center">
-  <img src="Images/Ventilator.jpeg" width="650">
+  <img src="Ventilator.jpeg" width="650">
 </p>
+
+The ventilator impeller was designed with curved blades to generate airflow during rotational operation.
+
+### Main Features
+
+- Custom curved blade geometry
+- Compact circular design
+- Central shaft mounting section
+- Suitable for FDM 3D printing
+- Designed for rapid prototyping
+- Easy to modify for future design iterations
+
+The component was 3D printed to evaluate the overall shape, geometry, printability and mechanical feasibility of the design.
 
 ---
 
-### 2. Ventilator Mounting Bracket
+## Ventilator Mounting Bracket
 
-The mounting bracket was developed to support and hold the mechanical components of the ventilator assembly.
+<p align="center">
+  <img src="Ventilator_Bracket.jpeg" width="650">
+</p>
 
-### Features
+The mounting bracket was designed to provide structural support and component mounting for the ventilator assembly.
+
+### Main Features
 
 - Lightweight structural design
 - Multiple mounting holes
 - Curved retaining sections
-- Material-saving cutouts
-- Compact mechanical geometry
+- Material-saving geometric cutouts
+- Compact mechanical structure
 - Suitable for rapid prototyping
+- Designed for FDM manufacturing
 
-### Prototype
-
-<p align="center">
-  <img src="Images/Ventilator_Bracket.jpeg" width="650">
-</p>
+The prototype was fabricated to evaluate mechanical fit, mounting positions and overall manufacturability.
 
 ---
 
-## Design & Manufacturing
+## Design and Manufacturing
 
 | Parameter | Details |
 |---|---|
-| Design Method | CAD Modelling |
+| Design Type | Mechanical CAD Design |
 | Manufacturing Method | FDM 3D Printing |
-| Material | Add material used |
-| CAD Software | Add software used |
+| Project Type | Ventilator Mechanical Prototype |
+| Components | Impeller and Mounting Bracket |
+| CAD Software | Add CAD software used |
+| Material | Add printing material |
 | 3D Printer | Add printer model |
-| Application | Mechanical ventilator prototype |
+| File Formats | STL / STEP / CAD Source Files |
 
 ---
 
-## Repository Structure
+## Design Workflow
 
 ```text
-Ventilator-3D-Printed-Mechanical-Design/
-│
-├── README.md
-│
-├── CAD/
-│   ├── Impeller/
-│   └── Bracket/
-│
-├── STL/
-│   ├── ventilator-impeller.stl
-│   └── ventilator-bracket.stl
-│
-├── STEP/
-│   ├── ventilator-impeller.step
-│   └── ventilator-bracket.step
-│
-├── Images/
-│   ├── Ventilator.jpeg
-│   └── Ventilator_Bracket.jpeg
-│
-└── Drawings/
-    ├── impeller-drawing.pdf
-    └── bracket-drawing.pdf
+Concept Development
+        ↓
+CAD Modelling
+        ↓
+Mechanical Design Refinement
+        ↓
+STL Export
+        ↓
+Slicing
+        ↓
+FDM 3D Printing
+        ↓
+Physical Prototype
+        ↓
+Mechanical Evaluation
+        ↓
+Design Improvement
